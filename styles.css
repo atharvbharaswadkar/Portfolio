@@ -241,5 +241,11 @@ html {
 }
 
 input::placeholder,
-textare::placeholder {
+textarea::placeholder {
   color:#777;}
+input,textarea, button {
+  pointer-events:auto;
+  visibility:auto;
+  z-index:1;
+  position:relative;
+}
