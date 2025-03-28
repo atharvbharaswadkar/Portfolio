@@ -240,7 +240,7 @@ html {
   scroll-padding-top: 80px;
 }
 
-input::placeholder,
+/* input::placeholder,
 textarea::placeholder {
   color:#777;}
 input,textarea, button {
@@ -248,4 +248,21 @@ input,textarea, button {
   visibility:auto;
   z-index:1;
   position:relative;
+} */
+input,
+textarea {
+  background-color: #fff !important;
+  color: #000 !important;
+  caret-color: #000 !important;
+  z-index: 10;
+  position: relative;
+  pointer-events: auto;
+  border: 1px solid #ccc;
+  padding: 10px;
+  font-size: 16px;
+}
+
+input::placeholder,
+textarea::placeholder {
+  color: #999;
 }
