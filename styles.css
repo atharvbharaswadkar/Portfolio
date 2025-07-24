@@ -16,7 +16,7 @@ html, body {
   top: 0;
   right: 0;
   width: 100%;
-  background: rgba(255, 255, 255, 0.9);
+  background-color: #fff4dc; 
   backdrop-filter: blur(6px);            
   box-shadow: 0 2px 5px rgba(0,0,0,0.05); 
   text-align: right;
@@ -35,7 +35,7 @@ html, body {
 .navbar a {
   text-decoration: none;
   font-weight: 600;
-  color: #222; /* darker for better contrast */
+  color: #222; 
   transition: color 0.2s ease;
 }
 
