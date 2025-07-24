@@ -171,6 +171,12 @@ html, body {
   font-size: 20px;
 }
 
+.box:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.1);
+  transition: 0.3s ease;
+}
+
 .skill-grid {
   display: grid;
   grid-template-columns: 1fr 1fr;
