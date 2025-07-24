@@ -1,4 +1,5 @@
-const toggle = document.getElementById('theme-toggle');
+<script>
+  const toggle = document.getElementById('theme-toggle');
 const body = document.body;
 
 if (localStorage.getItem('theme') === 'dark') {
@@ -12,3 +13,4 @@ toggle.addEventListener('click', () => {
   toggle.textContent = isDark ? '☀️' : '🌙';
   localStorage.setItem('theme', isDark ? 'dark' : 'light');
 });
+</script>
